@@ -7,6 +7,6 @@ headers ={
 
 
 
-r = requests.get("https://www.onurix.com/api/v1/group/AQUI_ID_GRUPO/contacts/list?key=AQUI_SU_KEY&client=AQUI_SU_ID",headers=headers)
+r = requests.get("https://www.onurix.com/api/v1/group/AQUI_ID_GRUPO/contacts/list?key=AQUI_SU_KEY&client=AQUI_SU_ID&page=AQUI_NUMERO_PAGINA",headers=headers)
 
 print(r.json())
