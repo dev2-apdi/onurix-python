@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://www.onurix.com/api/v1/whatsapp/send/no-template?key=AQUI_SU_KEY&client=AQUI_SU_CLIENT_ID"
+url = "https://www.onurix.com/api/v1/whatsapp/send/no-template?key=AQUI_SU_KEY&client=AQUI_SU_CLIENT_ID&phone_sender_id=AQUI_EL_ID_DEL_NUMERO_DE_TELEFONO_REMITENTE"
 
 payload = {
     "from_phone_meta_id": "AQUI_ID_META_PHONE",
